@@ -1,0 +1,8 @@
+C:\Users\jqfme\Desktop\Computing Algorithm\Main.java
+C:\Users\jqfme\Desktop\Computing Algorithm\algorithms\BruteForceSolver.java
+C:\Users\jqfme\Desktop\Computing Algorithm\algorithms\GreedySolver.java
+C:\Users\jqfme\Desktop\Computing Algorithm\algorithms\KnapsackSolver.java
+C:\Users\jqfme\Desktop\Computing Algorithm\algorithms\MultiStageDP.java
+C:\Users\jqfme\Desktop\Computing Algorithm\models\Investment.java
+C:\Users\jqfme\Desktop\Computing Algorithm\models\Result.java
+C:\Users\jqfme\Desktop\Computing Algorithm\models\Stage.java

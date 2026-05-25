@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml">
+
+    <top>
+        <VBox spacing="10" alignment="CENTER">
+
+            <Label text="Multi-Stage Investment Optimizer" />
+
+            <HBox spacing="10" alignment="CENTER">
+
+                <Label text="Initial Budget:" />
+                <TextField fx:id="budgetField" />
+
+                <Button text="Run Algorithms" />
+
+            </HBox>
+        </VBox>
+        </top>
+
+    <center>
+
+        <LineChart fx:id="profitChart">
+            <xAxis>
+                <CategoryAxis label="Stage" />
+            </xAxis>
+
+            <yAxis>
+                <NumberAxis label="Capital" />
+            </yAxis>
+        </LineChart>
+
+    </center>
+
+    <bottom>
+
+        <TableView fx:id="resultTable">
+            <columns>
+
+                <TableColumn text="Algorithm" />
+                <TableColumn text="Final Capital" />
+                <TableColumn text="Execution Time" />
+
+            </columns>
+        </TableView>
+
+    </bottom>
+</BorderPane>
