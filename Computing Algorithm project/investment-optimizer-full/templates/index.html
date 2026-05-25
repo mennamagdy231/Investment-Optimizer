@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Investment Optimizer</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+    <header class="hero">
+        <p class="eyebrow">Computing Algorithms Project 13</p>
+        <h1>Multi-Stage Investment Optimizer</h1>
+        <p>Compare Dynamic Programming, Greedy, 0/1 Knapsack, and Brute Force decisions across investment stages.</p>
+    </header>
+
+    <div class="card">
+        <label>Initial Budget</label>
+        <input type="number" id="budget" value="5000" min="0">
+
+        <div class="actions">
+            <button onclick="addStage()">Add Stage</button>
+            <button onclick="loadSampleData()" class="secondary">Load Sample Data</button>
+            <button onclick="runOptimization()" class="primary">Optimize</button>
+        </div>
+
+        <div id="stages"></div>
+    </div>
+
+    <div id="results" class="hidden"></div>
+
+    <div class="chart-grid hidden" id="charts-area">
+        <div class="card"><canvas id="returnChart"></canvas></div>
+        <div class="card"><canvas id="finalChart"></canvas></div>
+        <div class="card wide"><canvas id="sensitivityChart"></canvas></div>
+    </div>
+
+</div>
+
+<script src="/static/js/app.js"></script>
+
+</body>
+</html>
